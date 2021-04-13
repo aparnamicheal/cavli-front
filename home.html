@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Files</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="fonts/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body onload="is_cred_exists()">
+    
+	<a href="add-s3.html" class="btn btn-success" style="color:white;float: right ;margin:20px">Update S3 credentials</a>
+	<div class="container-contact100">
+        
+			
+
+        <section class="ftco-section">
+            <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-1 text-center mb-">
+            <h2 class="heading-section">Files</h2>
+            </div>
+            </div>
+            <div class="row" id="Add_new"><a href="add.html" class="btn btn-success">Add New File</a>
+            <div class="col-md-12">
+            <div class="table-wrap">
+
+            <div class="alert" id='alert'>
+				alert
+			</div>
+            <table class="table table-striped" id="fileTable">
+            <thead>
+            <tr>
+            <th>File Name</th>
+            <th>S3 URL</th>
+            <th>Uploaded on</th>
+            <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            </table>
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
+	</div>
+
+
+
+</body>
+</html>

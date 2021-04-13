@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JBM</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="fonts/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	
+	<div class="container-contact100">
+		
+		<div class="wrap-contact100">
+			
+			<div class="alert" id='alert'>
+				alert
+			</div>
+			
+			<div style="float: right;">
+				<a href="home.html" class="btn btn-success" style="color:white">Home</a>
+			</div>
+				<span class="contact100-form-title">
+					Add new S3 credentials
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="fileName is required">
+					<input class="input100" id="accessKeyId" type="text" name="accessKeyId" placeholder="accessKeyId" required>
+					<label class="label-input100" for="accessKeyId">
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="secretAccessKey is required">
+					<input class="input100" id="secretAccessKey" type="text" name="secretAccessKey" placeholder="secretAccessKey" required>
+					<label class="label-input100" for="secretAccessKey">
+					</label>
+				</div>
+
+
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn">
+							
+						</div>
+						<button class="contact100-form-btn"  style="display: inline;" onclick=save_cred()>
+							Save
+						</button>
+						
+					</div>
+					
+				</div>
+			
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
